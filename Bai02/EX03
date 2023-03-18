@@ -1,0 +1,26 @@
+body{
+    font: 40px;
+    padding: 10;
+  margin: 10svw;
+  background-color: rgb(248, 250, 248);
+}
+
+
+/* Header **/
+header{
+    background-color: rgb(5, 178, 221);
+    color: rgb(228, 12, 66);
+    min-height: max-content;
+    border-bottom: 0ch;
+}
+
+footer{
+    padding: 0%;
+    margin-top: 0%;
+    color: crimson;
+    background-color: rgb(0, 0, 0);
+    text-align: end;
+    
+  
+}
+
