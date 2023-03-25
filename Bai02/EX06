@@ -84,7 +84,6 @@ header a:hover{
 #showcase{
     height: 50ch;
     background: url("https://huykira.net/wp-content/uploads/2016/05/work-css-img.jpg");
-    background-repeat: ;
 
 }
 
