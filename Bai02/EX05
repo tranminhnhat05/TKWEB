@@ -17,7 +17,8 @@ body{
 }
 
 ul{
- 
+ font-size: 12px;
+ margin-right: 20px;
 
 }
 
@@ -43,10 +44,10 @@ font-size: medium;
 }
 
 header li{
-  float: inline-start;
- display: flexbox;
- padding: 0;
-
+  color:red	;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 16px;
 
 }
 
@@ -60,8 +61,9 @@ header #branding h1{
 }
 
 header nav{
-  float: none;
- margin-top: 12px;
+  margin-top: -120px;
+    float:right;
+    padding:20px;
 
 }
 
@@ -74,7 +76,7 @@ header .highlight, header .current a{
 }
 
 header a:hover{
-  color:#33CCFF ;
+  
   font-weight: 200;
 
 
