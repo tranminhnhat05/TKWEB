@@ -72,7 +72,8 @@ footer{
 }
 
 #newsletter form input[type="email"], .quote input, .quote textarea{
-  color: black;
+  width: 12px;
+  margin-bottom: 20px;
     
   }
 
