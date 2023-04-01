@@ -7,12 +7,11 @@ body{
 
 /* Global */
 .container{
-    color:#222222 ;
+    color:red ;
     margin-left: 20px;
 }
 
 ul{
-    color: #33CCFF;
     font-size: 17px;
     margin-right: 20px;
 }
@@ -23,8 +22,8 @@ ul{
 }
 
 .dark{
-   padding: 15px;
-  background: #33CCFF;
+  padding: 15px;
+  background:black;
   color:#ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -32,7 +31,7 @@ ul{
 
 /* Header **/
 header{
-    background:#35424a;
+    background:black;
     color: #ffffff;
     padding-top:30px;
     min-height: 70px;
@@ -69,7 +68,6 @@ header nav{
 header .highlight, header .current a{
     color:#FFCC33 ;
     font-weight: 100px;
-
 }
 
 header a:hover{
@@ -97,8 +95,9 @@ header a:hover{
 
 /* Newsletter */
 #newsletter{
-    background-color: #000000;
+    background-color: #000;
     margin-top: 5ch;
+
 }
 
 #newsletter h1{
@@ -109,7 +108,6 @@ header a:hover{
 #newsletter form {
     float: right;
     margin-top: -50px;
-  
 }
 
 #newsletter input[type="email"]{
@@ -120,17 +118,19 @@ header a:hover{
 
 /* Boxes */
 #boxes{
-  margin-left: 50px;
-
+    columns: 3;
 }
 
 #boxes .box{
-  font-size: 19px;
-  
+    width: 350px;
+    text-align: center;
+    box-sizing: border-box;
 }
 
+
 #boxes .box img{
-  
+  width: 90px;
+  margin-top: 20px;
 }
 
 footer{
