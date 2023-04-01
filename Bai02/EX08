@@ -23,7 +23,11 @@ ul{
 }
 
 .dark{
-  
+   padding: 15px;
+  background: #33CCFF;
+  color:#ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Header **/
